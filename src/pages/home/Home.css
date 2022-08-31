@@ -1,0 +1,42 @@
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.settings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10%;
+}
+.banner{
+    width: 55%;
+    align-self: center;
+    padding: 8px;
+    /* height: 70vh; */
+}
+@media (max-width:800px){
+    .content{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .banner{
+        width: 85%;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .settings{
+        width: 100%;
+    }
+}
+.settings_select{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-evenly;
+    flex: 0.8;
+}

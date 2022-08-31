@@ -1,0 +1,33 @@
+.quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "poppins", sans-serif;
+}
+.subtitle{
+    font-size: 25px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 2px black;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    background-color: rgb(139, 138, 138);
+    animation: mymove 5s linear infinite;
+    color: white;
+}
+
+@keyframes mymove {
+    0%{ background-color:  rgb(139, 138, 138);}
+    20%{background-color:#009688}
+    40%{background-color:  #2196f3;}
+    60%{ background-color: #ff5722;}
+    80%{background-color: yellowgreen;}
+    1000%{ background-color:  rgb(139, 138, 138)}
+  }
+
+.quizInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+    text-transform: uppercase;
+}
