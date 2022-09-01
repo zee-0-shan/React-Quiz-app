@@ -1,6 +1,5 @@
 import { Button } from '@material-ui/core'
-import React, { useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from 'react'
 import "./result.css"
 
 export default function Result({name,score}) {
